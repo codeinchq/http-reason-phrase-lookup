@@ -27,6 +27,8 @@ namespace CodeInc\HttpReasonPhraseLookup;
  *
  * @package CodeInc\HttpReasonPhraseLookup
  * @author  Joan Fabrégat <joan@codeinc.fr>
+ * @link https://github.com/CodeIncHQ/HttpReasonPhraseLookup
+ * @license MIT <https://github.com/CodeIncHQ/HttpReasonPhraseLookup/blob/master/LICENSE>
  */
 class HttpReasonPhraseLookup
 {
