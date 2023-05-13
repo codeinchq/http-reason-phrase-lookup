@@ -6,7 +6,7 @@ This library is a PHP 7.1 library dedicated to lookup HTTP reason phrases. It is
 
 ```php
 <?php
-use CodeInc\Psr7ResponseSender\HttpReasonPhraseLookup;
+use CodeInc\HttpReasonPhraseLookup\HttpReasonPhraseLookup;
 
 // you can lookup a given status code 
 HttpReasonPhraseLookup::getReasonPhrase(404); // returns 'Not Found'
