@@ -110,16 +110,6 @@ final class HttpReasonPhraseLookupTest extends TestCase
         yield '504 Gateway Timeout' => [504, 'Gateway Timeout'];
     }
 
-    public function testDeprecatedGetReasonPhrasesReturnsGenerator(): void
-    {
-        $generator = HttpReasonPhraseLookup::getReasonPhrases();
-
-        self::assertInstanceOf(\Generator::class, $generator);
-
-        $fromGenerator = iterator_to_array($generator, true);
-        self::assertSame(HttpReasonPhraseLookup::getAllReasonPhrases(), $fromGenerator);
-    }
-
     public function testGapCodesReturnNull(): void
     {
         $allPhrases = HttpReasonPhraseLookup::getAllReasonPhrases();

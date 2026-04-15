@@ -111,15 +111,6 @@ final class HttpReasonPhraseLookup
     }
 
     /**
-     * @deprecated Use getAllReasonPhrases() instead.
-     * @return \Generator<int, string>
-     */
-    public static function getReasonPhrases(): \Generator
-    {
-        yield from self::PHRASES;
-    }
-
-    /**
      * Returns whether the given status code has a known reason phrase.
      */
     public static function hasReasonPhrase(int $statusCode): bool
