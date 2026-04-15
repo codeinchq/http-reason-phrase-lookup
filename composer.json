@@ -1,21 +1,24 @@
 {
   "name": "codeinc/http-reason-phrase-lookup",
-  "version": "1.0.0",
-  "description": "A class to lookup HTTP reason phrases",
-  "homepage": "https://github.com/CodeIncHQ/HttpReasonPhraseLookup",
+  "description": "A PHP library to lookup HTTP status reason phrases",
+  "homepage": "https://github.com/CodeIncHQ/http-reason-phrase-lookup",
   "type": "library",
   "license": "MIT",
   "require": {
-    "php": ">=7.1"
+    "php": ">=8.2"
   },
   "require-dev": {
-    "phpunit/phpunit": "^7"
+    "phpunit/phpunit": "^10.5 || ^11"
   },
   "autoload": {
-    "psr-4": { "CodeInc\\HttpReasonPhraseLookup\\": "src/" }
+    "psr-4": {
+      "CodeInc\\HttpReasonPhraseLookup\\": "src/"
+    }
   },
   "autoload-dev": {
-    "psr-4": { "CodeInc\\HttpReasonPhraseLookup\\Tests\\": "tests/" }
+    "psr-4": {
+      "CodeInc\\HttpReasonPhraseLookup\\Tests\\": "tests/"
+    }
   },
   "authors": [
     {
@@ -25,6 +28,9 @@
       "role": "developer"
     }
   ],
+  "scripts": {
+    "test": "phpunit"
+  },
   "config": {
     "preferred-install": {
       "*": "dist"
