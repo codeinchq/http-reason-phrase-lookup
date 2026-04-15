@@ -18,7 +18,7 @@ final class HttpReasonPhraseLookup
      *
      * @see https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
      */
-    private const array PHRASES = [
+    private const PHRASES = [
         // 1xx Informational
         100 => 'Continue',
         101 => 'Switching Protocols',

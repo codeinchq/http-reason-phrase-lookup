@@ -5,7 +5,7 @@
 [![Packagist Downloads](https://img.shields.io/packagist/dt/codeinc/http-reason-phrase-lookup)](https://packagist.org/packages/codeinc/http-reason-phrase-lookup)
 [![Packagist License](https://img.shields.io/packagist/l/codeinc/http-reason-phrase-lookup)](LICENSE)
 
-A PHP 8.1+ library for looking up HTTP status code reason phrases.\
+A PHP 8.2+ library for looking up HTTP status code reason phrases.\
 Covers all [IANA-registered HTTP status codes](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml) (1xx through 5xx).
 
 ## Installation
